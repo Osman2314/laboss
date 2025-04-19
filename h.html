@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Message pour Hanife</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 100px;
+      background-color: #fff0f5;
+    }
+
+    #message {
+      display: none;
+      font-size: 2em;
+      margin-top: 30px;
+      color: #e91e63;
+    }
+
+    #message img {
+      width: 60px;
+      height: auto;
+      vertical-align: middle;
+      margin-left: 10px;
+    }
+
+    a {
+      font-size: 1.5em;
+      text-decoration: none;
+      color: #007BFF;
+      cursor: pointer;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <a onclick="afficherMessage()">Clique ici 💖</a>
+
+  <div id="message">
+    Hanife la plus belle
+    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg" alt="Drapeau de la Turquie">
+    🌷
+  </div>
+
+  <script>
+    function afficherMessage() {
+      document.getElementById('message').style.display = 'block';
+    }
+  </script>
+
+</body>
+</html>
+
